@@ -1,0 +1,51 @@
+.contactForm {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 4px solid blueviolet;
+    box-shadow: 5px purple;
+}
+
+#contactFormImage {
+    width: 100%;
+}
+
+#inputForName {
+    width: 60%;
+    height: 25px;
+}
+
+#inputForEmail {
+    width: 60%;
+    height: 25px;
+}
+
+#selectRole {
+    width: 30%;
+    height: 25px;
+}
+
+#feedbackSubmit {
+    width: 100%;
+    height: 150px;
+}
+
+#buttonForSubmit {
+    background-color: blue;
+    color: #ccc;
+    font-weight: bold;
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+}
+
+#buttonForSubmit:hover {
+    background-color: darkblue;
+}
+
+#submitMessage {
+    color: darkgreen;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Initial version</title>
+    <link rel="stylesheet" href="./ContactFormStyle.css">
+    
+</head>
+<body>
+    <form class="contactForm">
+        <img id="contactFormImage" src="./images/contact-form-img.png" alt="Contact form image">
+
+        <br><br>
+        
+        <label id="labelForContactFormName" for="name">Please enter your name</label>
+        <br>
+        <input id="inputForName" type="text" placeholder="Your name here">
+
+        <br><br><br>
+        
+        <label for="email">Please enter your email</label>
+        <br>
+        <input id="inputForEmail" type="text" placeholder="Your email here">
+
+        <br><br><br>
+        
+        <select name="" id="selectRole">
+            <option value="Student">Student</option>
+            <option value="Lecturer">Lecturer</option>
+            <option value="Lecturer">Employee</option>
+        </select>
+
+        <br><br><br>
+        
+        <label for="feedback">Please enter you feedback</label>
+        <textarea name="" id="feedbackSubmit" placeholder="(Must be at least 50 and at most 200 letters)"></textarea>
+
+        <br><br><br>
+
+        <button id="buttonForSubmit">Submit</button>
+        
+        <br>
+        
+        <h2 id="submitMessage"></h2>
+
+    </form>
+
+    <script src="./ContactFormScript.js"></script>
+</body>
+</html>
